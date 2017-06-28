@@ -3,9 +3,9 @@ console.log("security_questions.js loaded");
 let securityQuestions = { prompt("What is your pet name?", petName: "Amber"), prompt("Which city were you born", cityBorn: "Maracaibo"), prompt("What is your favorite color", favColor: "Purple") };
 
 for (i = 0; i < secutiryQuestions.length; i++) {
-  prompt("What is your pet name?", petName: "Amber");
-  prompt("Which city were you born", cityBorn: "Maracaibo");
-  prompt("What is your favorite color", favColor: "Purple");
+  prompt("What is your pet name?");
+  prompt("Which city were you born");
+  prompt("What is your favorite color";
 } else {
-  alert("NO answers are submitted");
-}
+  alert("No answers are submitted");
+};
