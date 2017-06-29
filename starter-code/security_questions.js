@@ -1,11 +1,12 @@
 console.log("security_questions.js loaded");
 
-let securityQuestions = { prompt("What is your pet name?", petName: "Amber"), prompt("Which city were you born", cityBorn: "Maracaibo"), prompt("What is your favorite color", favColor: "Purple") };
-
-for (i = 0; i < secutiryQuestions.length; i++) {
-  prompt("What is your pet name?");
-  prompt("Which city were you born");
-  prompt("What is your favorite color";
-} else {
-  alert("No answers are submitted");
-};
+var petName = prompt("What is your pet name?", "Amber");
+	if (petName == null || petName == "") {
+var cityBorn = prompt("Which city were you born", "Maracaibo");
+    } else if (cityBorn == null || cityBorn == "") {
+	  var favColor = prompt("What is your favorite color", "Purple");
+    }else if (favColor == null || favColor == "") {
+			txt ("You answered correctly");
+        } else {
+			txt("try again")
+        };
